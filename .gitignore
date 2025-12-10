@@ -1,0 +1,20 @@
+# Ignore the corpus of 100 PDFs
+pdf_corpus/
+
+# Ignore the generated index folder
+indexes/
+
+# Ignore the temporary JSON file
+corpus.jsonl
+
+# Ignore Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore IDE settings
+.vscode/
+.idea/
