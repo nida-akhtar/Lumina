@@ -15,13 +15,15 @@ A full-stack Information Retrieval system that indexes 100 academic papers (PDFs
 1. **Install Dependencies:**
    ```bash
    pip install -r requirements.txt
+   ```
 
-   Build the Index:
-
+2. **Build the Index:**
+   ```bash
    python index.py
+   ```
+3. **Run the Search App:**
 
-   Run the Search App:
-
+   ```bash
    python -m streamlit run app.py
 
    python stats.py
