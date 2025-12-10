@@ -2,12 +2,13 @@
 
 A full-stack Information Retrieval system that indexes 100 academic papers (PDFs) using Apache Lucene and provides a search interface via Streamlit.
 
-## 📂 Project Structure
+## Project Structure
 - `index.py`: Builds the Lucene Inverted Index.
 - `stats.py`: Inspects the index (TF/DF counts).
 - `app.py`: Web Interface for searching and downloading.
+- `pd_corpus`: Will contain the pdfs
 
-## 🚀 Quick Start
+## Quick Start
 
 **Prerequisite:** Ensure Java 21 is installed and `JAVA_HOME` is set.
 
@@ -17,21 +18,18 @@ A full-stack Information Retrieval system that indexes 100 academic papers (PDFs
 
    Build the Index:
 
-Bash
+   python index.py
 
-python index.py
-Run the Search App:
+   Run the Search App:
 
-Bash
+   python -m streamlit run app.py
 
-python -m streamlit run app.py
+   python stats.py
+   ```
 
-Bash
-
-python stats.py
 ---
 
-# Part 3: The Technical Report
+# The Technical Report
 
 **Title:** Development of a Lucene-Based Inverted Index for Academic Retrieval  
 **Date:** December 11, 2025  
